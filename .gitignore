@@ -5,3 +5,4 @@ dist/
 .env
 .env.*
 *.zip
+!test/fixtures/*.zip
