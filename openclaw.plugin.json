@@ -1,0 +1,27 @@
+{
+  "id": "hopper-gtfs",
+  "name": "Hopper GTFS Transit",
+  "version": "0.1.0-dev.3",
+  "description": "Native public transit catalog discovery, agent-scoped selection, and realtime data.",
+  "categories": [
+    "other"
+  ],
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": [
+      "search_transit_systems",
+      "use_transit_system",
+      "get_transit_system",
+      "search_transit_stops",
+      "get_transit_departures",
+      "get_transit_vehicles"
+    ]
+  },
+  "configSchema": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  }
+}
